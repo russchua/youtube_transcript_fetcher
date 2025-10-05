@@ -5,3 +5,8 @@ exit
 ' '''
 
 python main_script.py "https://www.youtube.com/watch?v=70-XHTgbaBM&ab_channel=JullianGG"
+
+
+python main_script.py https://youtu.be/aG6_RBgsc7Q?si=nrmX5pVv9xbEAM6x
+
+python main_script.py https://youtu.be/NPuHrP-q-o0?si=7DJg0zZIyQt7CTzl

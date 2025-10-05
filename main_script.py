@@ -16,6 +16,9 @@ def get_title(sample_url):
     title_tag = soup.find('meta', property='og:title')
     video_title = title_tag['content'] if title_tag else 'Title not found'
 
+    # Replace invalid filename characters
+    video_title = re.sub(r'[\\/*?:"<>|]', "", video_title)
+
     return video_title
 
 def extract_video_id(url):
